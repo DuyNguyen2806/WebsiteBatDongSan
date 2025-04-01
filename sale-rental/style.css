@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage img {
+    width: 100%;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    border-bottom: 2px solid #eee;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    width: auto;
+    height: auto;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav .highlight {
+    color: red;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Tiết kiệm */
+.saving-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.saving-box .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Chuyên viên */
+.consultant-img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #0a0a0a;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact-item p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-left {
+    width: 30%;
+}
+
+.footer-left img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-middle,
+.footer-right {
+    width: 30%;
+}
+
+.footer-middle h3,
+.footer-right h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-middle p,
+.footer-right p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+.modal-content {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.form-container {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    background-color: #d73030;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #b72525;
+}
